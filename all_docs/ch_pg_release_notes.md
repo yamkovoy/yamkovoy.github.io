@@ -10,8 +10,11 @@ parent: Bakong Release Notes
 
 ## About This Release
 This release brings a number of long-awaited QR code improvements and some minor quality of life features.
+
 *Not sure if we even need this section.*
 *-BY*
+
+***
 
 ## What’s New
 ### New Passwords Policy
