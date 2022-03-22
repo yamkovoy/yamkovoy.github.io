@@ -8,10 +8,10 @@ parent: Bakong Release Notes
 # Bakong 3.7.5 Release Notes
 ###### March ?, 2022
 
-## About This Release
+[## About This Release
 This release brings a number of long-awaited QR code improvements and some minor quality of life features.
 *Not sure if we even need this section.*
-*-BY*
+*-BY*]:*
 
 ## What’s New
 ### Transaction status tracking
@@ -19,6 +19,10 @@ It is now possible to track the current status of your deposit or wallet-to-wall
 
 ### New precautionary notifications
 When attempting to send money to unverified Bakong users, you will be warned of the daily limit for money transfers to such individuals. However, if the intended receiver of your money transfer is blocked, you wouldn't be able to proceed with the transfer, and a corresponding warning message will appear on your screen.
+
+### New account restoration process
+[BK-2132]:*
+Aside from your main Bakong account, a special recovery account is now created to aid you in regaining access to your main account.
 
 ### Successful transactions via Corporate QR codes are non-repeatable
 In the past, if you scanned a QR code to tranfer money, you were able to resend money to the same vendor through the `Transaction details` screen without scanning the QR code again. This resulted in specific verification data missing from the transaction details. From now on, for security reasons, you would need to rescan the QR code.
@@ -40,28 +44,20 @@ The list of banks to send your deposit to is now neatly sorted in alphabetical o
 Remember how you couldn't tell if a person on your `Contact` list were a registered Bakong user? You can now turn on a filter which highlights your contacts with a registered account.
 
 ### General security improvements
-BK-1381: Update TLSNBC TESTING
-BK-1382: Update password policyNBC TESTING
-BK-1383: Update SMBCANCELED
-BK-1384: Add SMB signingCANCELED
-BK-1385: Update vsFTPCANCELED
-BK-1386: Insecure HTTP login pagesNBC TESTING
-BK-1387: Update nginxNBC TESTING
-BK-1388: Update JHipsterNBC TESTING
-BK-1389: Server Banner DisclosureNBC TESTING
-BK-2137: Security vulnerabilitiesNBC TESTING
+Third-party security components have been updated to their latest versions, a number of security vulnerabilities have been fixed, and user safety protocols have been reinforced.
 
-### Account restoration
-BK-2132
+***
 
 ## Bug Fixes
 ### When attempted to exchange currencies, the Confirmation button was inactive
 This made you unable to spend your hard-earned money on buying foreign currencies. This is no more. Feel free to spend as much as you like on a currency of your choice.
 
-## Known Bugs
+***
+
+[## Known Bugs
 
 *Not sure if we even need this section.*
-*-BY*
+*-BY*]:*
 
 ## What's Next
 Bakong team is continuously working hard on implementing security and privacy improvements, user interface and availability enhancements, as well as other quality of life features.
