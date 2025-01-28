@@ -29,10 +29,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: 20
-        cache: pnpm
     - uses: pnpm/action-setup@v3
       with:
         version: 8
@@ -40,6 +36,10 @@ jobs:
         standalone: true
         dest: ~/setup-pnpm
     - run: npm i -g pnpm
+    - uses: actions/setup-node@v4
+    with:
+      node-version: 20
+      cache: pnpm
 
   # Build job
   build:
